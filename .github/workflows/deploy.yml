@@ -17,10 +17,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Specify the node version you want to use
+          node-version: '16'
 
       - name: Install dependencies
-        run: npm install # Changed to run for better control over npm
+        run: npm install
 
       - name: Build project
         run: npm run build
